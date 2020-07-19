@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Quick Quiz</title>
-  <link rel="stylesheet" href="app.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>end</title>
+    <link rel="stylesheet" href="app.css">
 </head>
-
 <body>
-  <div class="container">
-    <div id="home" class="flex-center flex-column">
-        <h1 class="title">Quick Quiz</h1>
-        <a class="btn" id="playBtn" href="#">play</a></br>
-        <a class="btn" href="/highscores.html">highscores</a>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <div id="finalScore"></div>
+            <form>
+                <input type="text" name="username" id="username" placeholder="username">
+                <button class="btn" id="saveBtn" disabled="true">save</button>
+            </form>
+            <a class="btn" href="/index.html">home</a></br>
+            <a class="btn" href="/highscores.html">highscores</a>
+          </div>
       </div>
-  </div>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -41,9 +41,6 @@
   const db = firebase.firestore();
   
 </script>
-<script src="app.js"></script>
-<script src="game.js"></script>
-<script src="end.js"></script>
+      <script src="end.js"></script>
 </body>
-
 </html>
