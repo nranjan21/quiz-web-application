@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High scores</title>
+    <title>highscores</title>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="highscores.css">
 </head>
 <body>
-    <h1>highscores</h1>
+    <h1>High Scores</h1>
+        <div class="content">
+            <ul id="score-list"></ul>
+        </div>
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyA2QCTtYun7QtL9dz0VLa1M6y6R9coCufY",
+              authDomain: "quickquiz-4cb8a.firebaseapp.com",
+              databaseURL: "https://quickquiz-4cb8a.firebaseio.com",
+              projectId: "quickquiz-4cb8a",
+              storageBucket: "quickquiz-4cb8a.appspot.com",
+              messagingSenderId: "212874802023",
+              appId: "1:212874802023:web:89ba6818f01c9e158375c2"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();         
+          </script>
+        <script src="highscores.js"></script> 
 </body>
 </html>

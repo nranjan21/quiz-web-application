@@ -43,7 +43,7 @@ const MAX_QUESTIONS = 3;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    scoreText.innerHTML = `<h2>${score}</h2>`;
+    scoreText.innerHTML = `<h2>0</h2>`;
     availableQuesions = [...questions];
     getNewQuestion();
 };

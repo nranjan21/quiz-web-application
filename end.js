@@ -15,7 +15,7 @@ saveBtn.addEventListener('click', (e) =>{
     console.log(auth.currentUser.uid);
     
     db.collection('scores').add({
-        score: recentScore,
+        score: parseInt(recentScore),
         username: username.value,
     }).then(() => {
         console.log('data added');
