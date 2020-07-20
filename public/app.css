@@ -82,11 +82,18 @@ h3 {
   text-align: center;
 }
 
-.hidden {
-  display: none;
+select{
+  width: 13vw;
+  height: 4vh;
+  font-size: 1.0vw;
+  color: blueviolet;
+}
+label{
+ 
+  font-size: 1.2vw;
+  color: rgb(152, 247, 247); 
 }
 
-/* BUTTONS */
 .btn {
   font-size: 1.5vw;
   padding: 1rem 0;
@@ -115,19 +122,26 @@ h3 {
   transform: none;
 }
 .title{
-  text-shadow: #56a5eb;
-  color: rgb(154, 24, 187);
+  color: rgb(255, 255, 255);
   font-family: cursive;
   font-size: 3vw;
 }
 
-form {
- 
+.selectForm{
+  margin-top: 1vw;
+  padding: 20px 20px;
+  border: 2px solid white;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-  padding-bottom: 1.3rem;
+  margin-bottom: 1vw;
+}
+
+.subForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input{

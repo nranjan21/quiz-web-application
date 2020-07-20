@@ -11,14 +11,14 @@ username.addEventListener("keyup",()=>{
 
 saveBtn.addEventListener('click', (e) =>{
     e.preventDefault();
-    console.log('clicked save button');
-    console.log(auth.currentUser.uid);
+    // console.log('clicked save button');
+    // console.log(auth.currentUser.uid);
     
     db.collection('scores').add({
         score: parseInt(recentScore),
         username: username.value,
     }).then(() => {
-        console.log('data added');
+        //console.log('data added');
         window.location.assign('/index.html');
     }).catch(error => {
         console.log(error.message);
