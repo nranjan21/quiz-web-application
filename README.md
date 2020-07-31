@@ -4,6 +4,7 @@
 <h3>TO FIX:</h3>
 <p>questions and choices are coming with some HTML entities(for ampersand, double quote, single quote)</p>
 <ul><h3>FEATURES</h3>
+  <li><p>responsive UI (works well in devices with different screen sizes)</p></li>
   <li><p>user can choose one of 24 categories to get questions on that category or can choose "any category" option to get mixed questions from various categories</p></li>
   <li><p>user can also choose difficulty level of the quiz</p></li>
   <li><p>quiz will comprise of 10 questions with four choices</p></li>
