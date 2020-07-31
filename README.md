@@ -1,5 +1,6 @@
 # quiz-web-application
-<h2>quickquiz-4cb8a.firebaseapp.com</h2>
+
+<h2>https://quickquiz-4cb8a.firebaseapp.com/</h2>
 <h3>TO FIX:</h3>
 <p>questions and choices are coming with some HTML entities(for ampersand, double quote, single quote)</p>
 <ul><h3>FEATURES</h3>
