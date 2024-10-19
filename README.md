@@ -1,4 +1,4 @@
-# quiz-web-application
+# Quick Quiz Website
 <h2>https://quickquiz-4cb8a.firebaseapp.com/</h2>
  <h3>Features</h3>
     <ul>
@@ -24,8 +24,8 @@
 
 <table>
   <tr>
-    <td>On choosing correct choice</td>
-    <td>On choosing incorrect choice</td>
+    <td>On choosing Correct Option</td>
+    <td>On choosing Incorrect Option</td>
   </tr>
   <tr>
     <td><img src="images/correct_choice.png" width=450</td>
@@ -35,8 +35,8 @@
 
 <table>
   <tr>
-    <td>End Page</td>
-    <td>Highscores page</td>
+    <td>Save your Score Page</td>
+    <td>High Scores Page</td>
   </tr>
   <tr>
     <td><img src="images/saving_score.png" width=450</td>
