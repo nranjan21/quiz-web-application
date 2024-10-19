@@ -1,5 +1,47 @@
 # quiz-web-application
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App Features</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .features {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .feature {
+            margin-bottom: 15px;
+        }
+        .feature-title {
+            font-weight: bold;
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
 <h2>https://quickquiz-4cb8a.firebaseapp.com/</h2>
  <div class="container">
         <h1>Features</h1>
@@ -60,3 +102,4 @@
     <td><img src="images/highscores_page.png" width=450</td>
   </tr>
 </table>
+</body>
