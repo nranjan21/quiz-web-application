@@ -10,7 +10,7 @@
         <li><strong>Save Your Score:</strong> After completing the quiz, enter your username to lock in your score.</li>
         <li><strong>High Scores Leaderboard:</strong> Compete with others and check out the top 10 highest scores with corresponding usernames in the High Scores section.</li>
     </ul>
-<ul><h3>HAVE A LOOK HERE</h3></ul>
+<ul><h3>Visual Tour of the Quiz App</h3></ul>
 <table>
   <tr>
     <td>HOME PAGE</td>
