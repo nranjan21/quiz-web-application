@@ -1,15 +1,32 @@
 # quiz-web-application
 
 <h2>https://quickquiz-4cb8a.firebaseapp.com/</h2>
-<ul><h3>FEATURES</h3>
-  <li><p>responsive UI (works well in devices with different screen sizes)</p></li>
-  <li><p>user can choose one of 24 categories to get questions on that category or can choose "any category" option to get mixed questions from various categories</p></li>
-  <li><p>user can choose difficulty level of the quiz</p></li>
-  <li><p>quiz will comprise of 10 questions with four choices</p></li>
-  <li><p>user will get a score of +10 on each correct answer and will get -2 on each incorrect one</p></li>
-  <li><p> After answering all the 10 questions, the User can save his/her score by entering his/her username</p></li>
-  <li><p> Check out top 10 scores in the High scores section with respective usernames</p></li>
-</ul>
+ <div class="container">
+        <h1>Features</h1>
+        <div class="features">
+            <div class="feature">
+                <span class="feature-title">Responsive Design:</span> The quiz adapts seamlessly to any device, whether you're on a phone, tablet, or desktop.
+            </div>
+            <div class="feature">
+                <span class="feature-title">Diverse Categories:</span> Choose from 24 unique categories, or go bold with the "any category" option for a mixed challenge!
+            </div>
+            <div class="feature">
+                <span class="feature-title">Difficulty Levels:</span> Tailor the quiz to your skill level by selecting easy, medium, or hard.
+            </div>
+            <div class="feature">
+                <span class="feature-title">10 Engaging Questions:</span> Each quiz features 10 thought-provoking multiple-choice questions with four possible answers.
+            </div>
+            <div class="feature">
+                <span class="feature-title">Dynamic Scoring System:</span> Earn +10 points for every correct answer and watch out—each wrong answer deducts 2 points.
+            </div>
+            <div class="feature">
+                <span class="feature-title">Save Your Score:</span> After completing the quiz, enter your username to lock in your score.
+            </div>
+            <div class="feature">
+                <span class="feature-title">High Scores Leaderboard:</span> Compete with others and check out the top 10 highest scores with corresponding usernames in the High Scores section.
+            </div>
+        </div>
+    </div>
 <ul><h3>HAVE A LOOK HERE</h3></ul>
 <table>
   <tr>
