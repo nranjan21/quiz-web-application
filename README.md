@@ -6,11 +6,11 @@
 <ul><h3>FEATURES</h3>
   <li><p>responsive UI (works well in devices with different screen sizes)</p></li>
   <li><p>user can choose one of 24 categories to get questions on that category or can choose "any category" option to get mixed questions from various categories</p></li>
-  <li><p>user can also choose difficulty level of the quiz</p></li>
+  <li><p>user can choose difficulty level of the quiz</p></li>
   <li><p>quiz will comprise of 10 questions with four choices</p></li>
   <li><p>user will get a score of +10 on each correct answer and will get -2 on each incorrect one</p></li>
-  <li><p>after answering all the 10 questions, User can save his/her score with entering his/her username</p></li>
-  <li><p>check out top 10 scores in Highscores section with respective usernames</p></li>
+  <li><p> After answering all the 10 questions, the User can save his/her score by entering his/her username</p></li>
+  <li><p> Check out top 10 scores in the High scores section with respective usernames</p></li>
 </ul>
 <ul><h3>HAVE A LOOK HERE</h3></ul>
 <table>
