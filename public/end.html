@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>end</title>
-    <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Quiz - End</title>
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <div id="finalScore"></div>
-            <form class="subForm">
-                <input type="text" name="username" id="username" placeholder="username">
-                <button class="btn" id="saveBtn" disabled="true">save</button>
-            </form>
-            <a class="btn" href="/index.html">home</a></br>
-            <a class="btn" href="/highscores.html">highscores</a>
-          </div>
-      </div>
-      <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyA2QCTtYun7QtL9dz0VLa1M6y6R9coCufY",
-    authDomain: "quickquiz-4cb8a.firebaseapp.com",
-    databaseURL: "https://quickquiz-4cb8a.firebaseio.com",
-    projectId: "quickquiz-4cb8a",
-    storageBucket: "quickquiz-4cb8a.appspot.com",
-    messagingSenderId: "212874802023",
-    appId: "1:212874802023:web:89ba6818f01c9e158375c2"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth();
-  const db = firebase.firestore();
-  
-</script>
-      <script src="end.js"></script>
+  <div class="container" id="end">
+    <div class="title" id="finalScore"></div>
+    <div class="sub-container"> 
+      <form class="subForm">
+        <input type="text" name="username" id="username" placeholder="username">
+        <button class="btn" id="saveBtn" disabled="true">save</button>
+      </form>
+      <a class="btn" href="/index.html">home</a>
+      <a class="btn" href="/highscores.html">highscores</a>
+    </div> 
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <script src="end.js"></script>
 </body>
 </html>

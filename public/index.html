@@ -6,82 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Quick Quiz</title>
+  <link rel="icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="app.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
-    <div id="home" class="flex-center flex-column">
-        <h1 class="title">Quick Quiz</h1>
-        <form class="selectForm">
-        <label for="category">Select Category</label>
-        <select name="category" id="categ">
-          <option value="any">Any Category</option>
-          <option value="9">General Knowledge</option>
-          <option value="10">Books</option>
-          <option value="11">Film</option>
-          <option value="12">Music</option>
-          <option value="13">Musicals & Theatres</option>
-          <option value="14">Television</option>
-          <option value="15">Video Games</option>
-          <option value="16">Board Games</option>
-          <option value="17">Science & Nature</option>
-          <option value="18">Computers</option>
-          <option value="19">Mathematics</option>
-          <option value="20">Mythology</option>
-          <option value="21">Sports</option>
-          <option value="22">Geography</option>
-          <option value="23">History</option>
-          <option value="24">Politics</option>
-          <option value="25">Art</option>
-          <option value="26">Celebrities</option>
-          <option value="27">Animals</option>
-          <option value="28">Vehicles</option>
-          <option value="29">Comics</option>
-          <option value="30">Gadgets</option>
-          <option value="31">Japanese Anime & Manga</option>
-          <option value="32">Cartoon & Animation</option>
-        </select>
-      </br>
-        <label for="type">Select Difficulty</label>
-        <select name="type" id="typ">
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-        </select>
-      </br>
-      </form>
-        <a class="btn" id="playBtn" href="#">play</a></br>
-        <a class="btn" href="/highscores.html">highscores</a>
-      </div>
+    <h1 class="title">Quick Quiz</h1>
+    <form class="selectForm">
+      <label for="category">Select Category</label>
+      <select name="category" id="categ">
+        <option value="any">Any Category</option>
+        <option value="9">General Knowledge</option>
+        <option value="10">Books</option>
+        <option value="11">Film</option>
+        <option value="12">Music</option>
+        <option value="13">Musicals & Theatres</option>
+        <option value="14">Television</option>
+        <option value="15">Video Games</option>
+        <option value="16">Board Games</option>
+        <option value="17">Science & Nature</option>
+        <option value="18">Computers</option>
+        <option value="19">Mathematics</option>
+        <option value="20">Mythology</option>
+        <option value="21">Sports</option>
+        <option value="22">Geography</option>
+        <option value="23">History</option>
+        <option value="24">Politics</option>
+        <option value="25">Art</option>
+        <option value="26">Celebrities</option>
+        <option value="27">Animals</option>
+        <option value="28">Vehicles</option>
+        <option value="29">Comics</option>
+        <option value="30">Gadgets</option>
+        <option value="31">Japanese Anime & Manga</option>
+        <option value="32">Cartoon & Animation</option>
+      </select>
+      <label for="type">Select Difficulty</label>
+      <select name="type" id="typ">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </form>
+    <a class="btn" id="playBtn" href="/game.html">Play</a>
+    <a class="btn" href="/highscores.html">Highscores</a>
   </div>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyA2QCTtYun7QtL9dz0VLa1M6y6R9coCufY",
-    authDomain: "quickquiz-4cb8a.firebaseapp.com",
-    databaseURL: "https://quickquiz-4cb8a.firebaseio.com",
-    projectId: "quickquiz-4cb8a",
-    storageBucket: "quickquiz-4cb8a.appspot.com",
-    messagingSenderId: "212874802023",
-    appId: "1:212874802023:web:89ba6818f01c9e158375c2"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth();
-  const db = firebase.firestore();
-  
-</script>
-<script src="app.js"></script>
-<script src="game.js"></script>
-<script src="end.js"></script>
+  <!-- Firebase and other JS scripts -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
